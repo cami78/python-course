@@ -1,5 +1,5 @@
 sysadminpy:
-    build: .
+    image: jupyter/notebook
     hostname: sysadminpy
     environment:
         - USE_HTTP=1
